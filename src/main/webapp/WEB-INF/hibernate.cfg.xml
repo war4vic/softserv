@@ -11,10 +11,10 @@
 		<!--<property name="hibernate.connection.url">jdbc:jtds:sqlserver://streamer2005.softserveinc.com/_055_OMS;instance=tc;</property>-->
 		<!--<property name="hibernate.connection.url">jdbc:jtds:sqlserver://CLASS49/_112_OMS;instance=SQLEXPRESS;</property>-->
 <!-- 		<property name="hibernate.connection.url">jdbc:jtds:sqlserver://ssu-sql12/Lv117proba;instance=tc;</property> -->
-		<property name="hibernate.connection.url">jdbc:mysql://${IP_MySQL_DB_APACHE}:3306/oms401</property>
+		<property name="hibernate.connection.url">jdbc:mysql://IP_MySQL_DB_APACHE:3306/oms401</property>
 
-		<property name="hibernate.connection.username">$USER_MySQL_DB_APACHE}</property>
-		<property name="hibernate.connection.password">${PASS_MySQL_DB_APACHE}</property>
+		<property name="hibernate.connection.username">USER_MySQL_DB_APACHE</property>
+		<property name="hibernate.connection.password">PASS_MySQL_DB_APACHE</property>
 
 		<!-- property name="hibernate.hbm2ddl.auto">create</property>  -->
 		<property name="hibernate.hbm2ddl.auto">update</property>
