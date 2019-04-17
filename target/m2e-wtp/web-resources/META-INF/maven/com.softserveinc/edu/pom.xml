@@ -14,6 +14,7 @@
 		<org.springframework.roo-version>1.0.2.RELEASE</org.springframework.roo-version>
 		<org.aspectj-version>1.6.9</org.aspectj-version>
 		<org.slf4j-version>1.5.10</org.slf4j-version>
+		
 	</properties>
 	<dependencies>
 		<!-- Spring -->
@@ -263,6 +264,9 @@
     <forkCount>3</forkCount>
     <reuseForks>true</reuseForks>
     <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
+    <environmentVariables>
+           <jenkins.IP_MySQL_DB_APACHE>${IP_MySQL_DB_APACHE}</jenkins.IP_MySQL_DB_APACHE>
+       </environmentVariables>
   </configuration>
 </plugin>
 			<plugin>
